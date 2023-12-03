@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Login</title>
+	<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+	<main id="main-holder">
+	<h1 id="login-header">Login</h1>
+
+	<form id="login-form">
+		<input type="text" name="username" id="username-field" class="login-form-field" placeholder="Username">
+		<input type="password" name="password" id="password-field" class="login-form-field" placeholder="Password">
+		<input type="submit" value="Login" id="login-form-submit">
+        
+	</form>
+     <div id="login-error-msg-holder">
+            <p id="login-error-msg">Wrong login or password.</p>
+     </div>
+	</main>
+  <form id="login-error-msg"></form>
+	
+	<script type="text/javascript" src="login.js"></script>
+</body>
+</html>
